@@ -2,7 +2,8 @@
 
 if [ $# -eq 0 ]
 then
-    echo "usage ./state_to_phone.sh state_dir mono_dir"
+    echo "usage ./state_to_mono.sh state_dir mono_dir"
+    exit
 fi
 
 mkdir "$2"
